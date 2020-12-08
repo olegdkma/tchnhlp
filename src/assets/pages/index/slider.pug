@@ -1,0 +1,32 @@
+section.slider
+    .container.d-flex.h-100.flex-column.align-items-start
+        .col-md-12.col-lg-6.slider__wrap.d-flex.flex-column.align-items-start.mt-auto.mb-auto
+            h1.title.slider__title Бесплатные и безопасные звонки и сообщения по всему миру
+            p.subtitle.slider__subtitle Продолжайте общение, где бы вы ни находились.
+            button(data-toggle="modal",data-target="#exampleModal").button.btn.btn-primary.btn-lg.btn_purple.slider__btn   Order call
+
+        a.slider__more Подробнее
+#exampleModal.modal.fade(tabindex='-1' role='dialog' aria-labelledby='exampleModalLabel' aria-hidden='true')
+    .modal-dialog(role='document')
+        .modal-content
+            .modal-header
+                h5#exampleModalLabel.modal-title Modal title
+                button.close(type='button' data-dismiss='modal' aria-label='Close')
+                    span(aria-hidden='true') ×
+            .modal-body
+                form
+                    .form-group
+                        label(for='exampleInputEmail1') Email address
+                        input#exampleInputEmail1.form-control(type='email' aria-describedby='emailHelp' placeholder='Enter email')
+                        small#emailHelp.form-text.text-muted We'll never share your email with anyone else.
+                    .form-group
+                        label(for='exampleInputPassword1') Password
+                        input#exampleInputPassword1.form-control(type='password' placeholder='Password')
+                    .form-check
+                        input#exampleCheck1.form-check-input(type='checkbox')
+                        label.form-check-label(for='exampleCheck1') Check me out
+                    button.btn.btn-primary(type='submit') Submit
+
+            .modal-footer
+                button.btn.btn-secondary(type='button' data-dismiss='modal') Close
+                button.btn.btn-primary(type='button') Save changes
