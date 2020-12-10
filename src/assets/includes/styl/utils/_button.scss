@@ -1,1 +1,13 @@
 $btn_purpl: #665cac;
+$btn_green: $primary_two;
+
+.btn__green{
+  background: $btn_green;
+}
+.btn{
+  min-width: 230px;
+  border-radius: 30px;
+  font-size: 17px;
+  font-weight: 300;
+  padding: 10px 28px;
+}

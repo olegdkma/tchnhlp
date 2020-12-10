@@ -7,9 +7,10 @@ $font__size: 12px;
 $font__family: sans-serif;
 
 .title{
-  font-size: 46px;
+  font-size: 44px;
   font-family: $font__family;
-  font-weight: 700;
+  font-weight: 200;
+  color: #323232;
   @media (max-width:574px){
     font-size: 34px;
   }
@@ -35,9 +36,13 @@ $font__family: sans-serif;
     font-weight: 500;
   }
 }
+.title_h1{
 
+}
 .subtitle{
-  font-size: 24px;
+  font-size: 15px;
+  font-weight: 300;
+  color: #323232;
   @media (max-width:574px){
     font-size: 19px;
   }

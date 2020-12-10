@@ -1,0 +1,25 @@
+.block1{
+  background: #e6ecf0;
+  padding-top: 50px;
+  &__title{
+    margin-bottom: 8px;
+  }
+  &__subtitle{
+
+      max-width: 330px;
+      margin-bottom: 30px;
+
+  }
+  &__btn{
+    max-width: 300px;
+    margin-bottom: 50px;
+  }
+}
+.block2{
+  background: #f3f6f8;
+  padding-top: 50px;
+}
+.secure-img{
+  text-align: center;
+
+}
